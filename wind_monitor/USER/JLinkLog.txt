@@ -1,0 +1,85 @@
+T2D90 000:198.966   SEGGER J-Link V6.64 Log File
+T2D90 000:205.720   DLL Compiled: Mar 13 2020 15:55:42
+T2D90 000:205.744   Logging started @ 2024-01-26 03:08
+T2D90 000:205.770 JLINK_SetWarnOutHandler(...)
+T2D90 000:209.483 - 3.724ms
+T2D90 000:209.676 JLINK_OpenEx(...)
+T2D90 000:229.128   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T2D90 000:238.234   Decompressing FW timestamp took 8885 us
+T2D90 000:245.131   Hardware: V9.20
+T2D90 000:245.204   S/N: 595232676
+T2D90 000:245.236   OEM: SEGGER
+T2D90 000:245.267   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+T2D90 000:247.276   TELNET listener socket opened on port 19021
+T2D90 000:247.434   WEBSRV Starting webserver
+T2D90 000:247.634   WEBSRV Webserver running on local port 19080
+T2D90 000:247.797 - 38.125ms returns "O.K."
+T2D90 000:247.819 JLINK_GetEmuCaps()
+T2D90 000:247.828 - 0.012ms returns 0xB9FF7BBF
+T2D90 000:247.980 JLINK_TIF_GetAvailable(...)
+T2D90 000:248.219 - 0.243ms
+T2D90 000:248.233 JLINK_SetErrorOutHandler(...)
+T2D90 000:248.240 - 0.011ms
+T2D90 000:248.260 JLINK_ExecCommand("ProjectFile = "C:\Users\pc\Desktop\wind monitor\USER\JLinkSettings.ini"", ...). 
+T2D90 000:279.006   Ref file found at: D:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T2D90 000:279.368   XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml
+T2D90 000:280.710   C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T2D90 000:388.552 - 140.312ms returns 0x00
+T2D90 000:388.661 JLINK_ExecCommand("Device = STM32F103RC", ...). 
+T2D90 000:389.509   Device "STM32F103RC" selected.
+T2D90 000:390.043 - 1.376ms returns 0x00
+T2D90 000:390.059 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T2D90 000:390.075 - 0.009ms returns 0x01
+T2D90 000:390.086 JLINK_GetHardwareVersion()
+T2D90 000:390.098 - 0.015ms returns 0x16760
+T2D90 000:390.107 JLINK_GetDLLVersion()  returns 66400
+T2D90 000:390.122 JLINK_GetFirmwareString(...)
+T2D90 000:390.130 - 0.011ms
+T2D90 000:390.143 JLINK_GetDLLVersion()  returns 66400
+T2D90 000:390.152 JLINK_GetCompileDateTime()
+T2D90 000:390.159 - 0.010ms
+T2D90 000:390.170 JLINK_GetFirmwareString(...)
+T2D90 000:390.177 - 0.010ms
+T2D90 000:390.186 JLINK_GetHardwareVersion()
+T2D90 000:390.194 - 0.010ms returns 0x16760
+T2D90 000:390.211 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T2D90 000:391.622 - 1.418ms returns 0x00
+T2D90 000:391.795 JLINK_SetSpeed(5000)
+T2D90 000:392.018 - 0.228ms
+T2D90 000:392.359 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T2D90 000:392.371 - 0.016ms returns JLINKARM_RESET_TYPE_NORMAL
+T2D90 000:392.384 JLINK_Reset()
+T2D90 001:015.381   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T2D90 001:170.134   
+  ***** Error: 
+T2D90 001:170.164   STM32: Connecting to CPU via connect under reset failed.
+T2D90 001:398.834   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T2D90 001:554.143   
+  ***** Error: 
+T2D90 001:554.178   STM32: Connecting to CPU via connect under reset failed.
+T2D90 001:604.552 JLINK_GetId()
+T2D90 001:710.149   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T2D90 001:865.230   
+  ***** Error: 
+T2D90 001:865.258   STM32: Connecting to CPU via connect under reset failed.
+T2D90 002:092.389   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T2D90 002:248.233   
+  ***** Error: 
+T2D90 002:248.262   STM32: Connecting to CPU via connect under reset failed.
+T2D90 002:299.419 - 694.885ms   returns 0x00000000
+T2D90 002:299.462 JLINK_GetId()
+T2D90 002:404.465   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T2D90 002:559.699   
+  ***** Error: 
+T2D90 002:559.719   STM32: Connecting to CPU via connect under reset failed.
+T2D90 002:786.731   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T2D90 002:941.167   
+  ***** Error: 
+T2D90 002:941.194   STM32: Connecting to CPU via connect under reset failed.
+T2D90 002:991.461 - 692.022ms   returns 0x00000000
+T2D90 002:995.751 JLINK_GetFirmwareString(...)
+T2D90 002:995.772 - 0.024ms
+T2D90 006:568.586 JLINK_Close()
+T2D90 006:580.318 - 11.754ms
+T2D90 006:580.345   
+T2D90 006:580.353   Closed
